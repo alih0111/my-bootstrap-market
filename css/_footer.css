@@ -1,0 +1,76 @@
+.news-latter-s1 h6 {
+    font-size: 15px;
+}
+
+.news-latter-s1 p {
+    font-size: 14px;
+}
+
+.news-latter-s2 p {
+    font-size: 14px;
+    line-height: 33px;
+}
+
+@media (max-width:577px) {
+    .d-ssm-6 {
+        max-width: 210px;
+    }
+}
+
+.footer-container2 h5 {
+    font-size: 15px;
+    border-bottom: 2px solid #d4d2d2;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container2 .nav-link {
+    padding-right: 0;
+    font-size: 14px;
+    color: #4b4a4a;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.footer-container2 .nav-link:hover {
+    color: rgb(204, 43, 43);
+    transform: translateX(-3px);
+    -webkit-transform: translateX(-3px);
+    -moz-transform: translateX(-3px);
+    -ms-transform: translateX(-3px);
+    -o-transform: translateX(-3px);
+}
+
+.icon-headset {
+    font-size: 30px;
+    align-self: center;
+    color: blue;
+}
+
+.nav-item .telegram:hover {
+    color: rgb(0, 132, 255);
+}
+
+.nav-item .instagram:hover {
+    color: rgb(245, 97, 11);
+}
+
+.nav-item .twitter:hover {
+    color: rgb(57, 203, 240);
+}
+
+.nav-item .facebook:hover {
+    color: blue;
+}
+
+.nav-item .rss:hover {
+    color: rgb(255, 166, 0);
+}
+
+.custom-footer-shadow{
+    box-shadow: 0 0 10px 0px #e5e3e3;
+}

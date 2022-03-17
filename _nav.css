@@ -1,0 +1,123 @@
+.custom-size-ibasket {
+    width: 64px;
+    height: 64px;
+}
+
+.custom-size-imenu {
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    bottom: -21px;
+}
+
+.custom-width-dropdown {
+    width: 300px;
+}
+
+.custom-vertical-align-basket {
+    vertical-align: -24px;
+}
+
+.navbar-nav-custom .nav-item-custom {
+    position: unset;
+}
+
+.dropdown-menu-custom {
+    right: 0;
+}
+
+.dropdown-item i {
+    vertical-align: -2px;
+}
+
+.dropdown-menu-custom a {
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+}
+
+.dropdown-menu-custom a:hover {
+    margin-right: 10px;
+    color: #232f3e !important;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+@media (max-width:768px) {
+    .mt-ssm-3 {
+        margin-top: 1rem !important;
+    }
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+#myInput {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    opacity: 0;
+    border: none !important;
+}
+
+label .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ced1d1;
+    margin: 5px 0;
+    transition: background-color 0.4s ease-in, opacity 0.4s ease-in,
+        transform 0.4s cubic-bezier(0.25, 1, 0.5, 1.25);
+}
+
+#myInput:checked~label .top {
+    transform: translateY(0) rotate(45deg);
+    margin-top: -20px;
+    -webkit-transform: translateY(0) rotate(45deg);
+    -moz-transform: translateY(0) rotate(45deg);
+    -ms-transform: translateY(0) rotate(45deg);
+    -o-transform: translateY(0) rotate(45deg);
+}
+
+#myInput:checked~label .bottom {
+    transform: translateY(-15px) rotate(-45deg);
+    margin-bottom: -20px;
+    -webkit-transform: translateY(-15px) rotate(-45deg);
+    -moz-transform: translateY(-15px) rotate(-45deg);
+    -ms-transform: translateY(-15px) rotate(-45deg);
+    -o-transform: translateY(-15px) rotate(-45deg);
+}
+
+#myInput:checked~label .middle {
+    opacity: 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: -15px !important;
+    outline: none !important;
+}
+
+#myInput:active {
+    outline: none !important;
+}
+
+.custom-bottom {
+    background-color: #fff;
+    height: 0px;
+    width: 0px;
+}
+
+.custom-bottom:active {
+    border: none !important;
+    outline: none !important;
+    top: 0;
+    left: 0;
+}

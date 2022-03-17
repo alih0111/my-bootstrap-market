@@ -1,0 +1,113 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">" !important;
+}
+
+.product-describe {
+    line-height: 30px;
+}
+.product-describe2 {
+    line-height: 30px;
+    border-right: 1px solid #000;
+}
+
+.product-attributes i {
+    vertical-align: -2px;
+    color: rgb(241, 127, 74);
+    line-height: 30px;
+}
+
+.product-nav-tabs .nav-link.active {
+    border-top: 3px solid red !important;
+    border-color: #e4e2e2;
+    border-bottom: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.product-nav-tabs .nav-link {
+    border-bottom: 1px solid #e4e2e2;
+    color: rgb(71, 70, 70);
+}
+
+.product-nav-tabs .nav-link:hover {
+    border-bottom: none;
+}
+
+.product-nav-tabs {
+    border-bottom: none;
+}
+
+.product-progressbar {
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 580px) {
+    .col-ssm {
+        flex: 0 0 50%;
+    }
+}
+
+.custom-dot-circle:before {
+    content: "\f192";
+    position: absolute;
+    top: -5px;
+    right: -7.7px;
+}
+
+.img-product-desc {
+    max-width: 500px !important;
+}
+.product-des .value{
+    flex: 0 0 78%;
+    background-color: #f5f3f3;
+}
+.product-des .key{
+    flex: 0 0 20%;
+    background-color: #f5f3f3;
+}
+.icon-vertical-mosh{
+    vertical-align: -2px;
+}
+.custom-float-left{
+    float: left;
+}
+.custom-w-30{
+    width: 30%;
+}
+.add-comment-ti p:nth-child(1){
+    font-size: 16px;
+    color: #505050;
+}
+.add-comment-ti p:nth-child(2){
+    font-size: 15px;
+    color: #505050;
+}
+.add-comment-ti i{
+    vertical-align: -2.4px;
+}
+.icon-dot i{
+    color: #8888fb;
+}
+.zoom-mousemove{
+    border: none!important;
+}
+@media (max-width:576px){
+    .ssm-basket-bottom button{ 
+        margin-right: 57.2px;       
+        width: 59%;
+        margin-top: 4px;
+    }
+    .ssm-basket-bottom input{ 
+        margin-right: 50px;       
+        width: 60%;
+        margin-top: -24px;
+    }
+    .ssm-basket-bottom label{ 
+        margin-right: 15px; 
+        margin-top: 20px;
+    }
+}

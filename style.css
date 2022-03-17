@@ -1,0 +1,108 @@
+@import "_nav.css";
+@import "_slider.css";
+@import "_special_offer.css";
+@import "/css/_owl_carousel.css";
+@import "/css/_banner.css";
+@import "/css/_footer.css";
+@import "/css/_login-form.css";
+@import "/css/_product-single.css";
+@font-face {
+  font-family: vazir;
+  src: url("/font/Vazir-Medium.eot");
+  src: url("/font/Vazir-Medium.woff") format("woff"),
+    url("/font/Vazir-Medium.ttf") format("ttf"),
+    url("/font/Vazir-Medium.woff2") format("woff2");
+}
+
+* {
+  font-family: "vazir", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1340px !important;
+  }
+}
+
+.red {
+  background-color: #eb3b5a;
+}
+
+.green {
+  background-color: #26de81;
+}
+
+.blue {
+  background-color: #54a0ff;
+}
+
+.d-blue {
+  background-color: #232f3e;
+}
+
+.yellow {
+  background-color: #feca57;
+}
+
+.yellow-rgba {
+  background-color: rgba(247, 243, 2, 0.8);
+}
+
+.pink {
+  background-color: #f78fb3;
+}
+
+.purple {
+  background-color: #5f27cd;
+}
+
+.d-gray {
+  background-color: #f3f4f5;
+}
+
+.black {
+  background-color: #222f3e;
+}
+.custom-font9 {
+  font-size: 9px;
+}
+.custom-font13 {
+  font-size: 13px;
+}
+.custom-font14 {
+  font-size: 14px;
+}
+
+.custom-font15 {
+  font-size: 15px;
+}
+
+.custom-font16 {
+  font-size: 16px;
+}
+.custom-font22 {
+  font-size: 22px;
+}
+
+.custom-width {
+  max-width: 1000px;
+}

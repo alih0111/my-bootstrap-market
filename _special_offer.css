@@ -1,0 +1,140 @@
+.custom-nav-tabs .nav-link {
+    border: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    font-size: 15px;
+    color: rgb(56, 56, 56);
+}
+
+.custom-nav-tabs .nav-link:focus,
+.custom-nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: rgb(238, 99, 99);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.offer-details {
+    font-size: 16px;
+    color: #9891ff;
+}
+
+.offer-stars {
+    color: rgb(14, 172, 211);
+    font-size: 14px;
+}
+
+.count-down-timer span {
+    background-color: #ececec;
+    font-size: 14px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+
+}
+
+#offer-expire-text {
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 70px;
+    margin-right: 50px;
+    z-index: 1;
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+}
+
+#day {
+    position: relative;
+}
+
+ #day::after {
+    content: "روز";
+    position: absolute;
+    top: 45px;
+    right: 4px;
+    font-size: 12px;
+}
+
+#hours {
+    position: relative;
+}
+
+ #hours::after {
+    content: "ساعت";
+    position: absolute;
+    top: 45px;
+    right: -3px;
+    font-size: 12px;
+}
+
+#minutes {
+    position: relative;
+}
+
+ #minutes::after {
+    content: "دقیقه";
+    position: absolute;
+    top: 45px;
+    right: 3px;
+    font-size: 12px;
+}
+
+#seconds {
+    position: relative;
+}
+
+ #seconds::after {
+    content: "ثانیه";
+    position: absolute;
+    top: 45px;
+    right: 2px;
+    font-size: 12px;
+}
+
+.offer-hover {
+    height: 230px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.offer-hover .first-img,
+.offer-hover .second-img {
+
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.offer-hover:hover .first-img,
+.offer-hover:hover .second-img {
+    transform: translateY(-230px);
+    -webkit-transform: translateY(-230px);
+    -moz-transform: translateY(-230px);
+    -ms-transform: translateY(-230px);
+    -o-transform: translateY(-230px);
+}
+.tab-shadow{
+    box-shadow: 0 0 1px 1px #f1f0f0;
+    z-index: 1;
+}
+.tab-title{
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    padding: 1px;
+    font-size: 18px;
+    border-bottom: 2px solid red;
+}

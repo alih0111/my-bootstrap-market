@@ -1,0 +1,96 @@
+.owl-p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.owl-carousel img {
+    max-width: 150px;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.custom-card-owl {
+    border: none;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    margin: 1px;
+    position: relative;
+    color: rgb(46, 45, 45);
+}
+
+.custom-card-owl:hover {
+    box-shadow: 0px 0px 1px 1px rgb(221, 220, 220);
+    z-index: 1;
+}
+
+.owl-badge {
+    font-size: 14px;
+    left: 25px;
+    top: 15px;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.owl-carousel .owl-dots {
+    display: none;
+}
+
+.owl-carousel .owl-nav {
+    padding: 10px;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    top: 30%;
+    position: absolute;
+    left: 0;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    top: 30%;
+    position: absolute;
+    right: 0;
+}
+
+
+.owl-carousel .owl-nav .owl-next span,
+.owl-carousel .owl-nav .owl-prev span {
+    font-size: 40px;
+    padding: 5px;
+    color: rgb(47, 48, 48);
+    box-shadow: 0.2px 0px 5px 0px rgb(230, 228, 228);
+}
+
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next:focus span,
+.owl-carousel .owl-nav .owl-prev:focus,
+.owl-carousel .owl-nav .owl-prev:focus span {
+    outline: none;
+}
+
+.carousel-title {
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+.carousel-title1{
+    border-bottom: 1px solid rgb(218, 216, 216);
+    padding-bottom: 6px;
+    padding-top: 10px;
+}
+.custom-card-body{
+    padding-bottom: 0!important;
+}
